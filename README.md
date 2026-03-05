@@ -98,7 +98,12 @@ O modelo identifica alunos em risco de defasagem usando:
 
 ## 👥 Equipe
 
-Projeto desenvolvido para o Tech Challenge 5 - FIAP Pós Tech
+Airton da Silva Cruz Filho - RM 362447 
+Gustavo Pitarello de Souza - RM 361594 
+João Paulo Giacherini de Moraes - RM 361571
+Victor Moreno Galves Marcondes - RM 362219
+Thiago Ribeiro da Costa - RM 362845
+
 
 ## 📝 Licença
 
@@ -106,4 +111,4 @@ Este projeto é parte do programa educacional da FIAP.
 
 ---
 
-**Passos Mágicos** - Mudando a vida de crianças e jovens por meio da educação
+
