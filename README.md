@@ -21,26 +21,44 @@ tech5/
 │   ├── BASE DE DADOS PEDE 2024 - DATATHON.xlsx
 │   ├── Base Tratada.xlsx
 │   └── dicionario.xlsx
+├── GRÁFICOS/                       # Gráficos gerados nas análises
+│   ├── alunos-atingem-ponto-de-virada-por-fase.png
+│   ├── comparativo-desempenho-por-materia.png
+│   ├── correlacao-engajamento-vs-desempenho-academico.png
+│   ├── distribuicao_idade_alunos.png
+│   └── ... (outros gráficos)
 ├── NOTEBOOKS/                      # Notebooks Jupyter
 │   ├── analise_exploratoria.ipynb
 │   ├── tratamento_base.ipynb
 │   └── modelo_preditivo_risco.ipynb
-├── instalar.bat                    # Script de instalação
-└── README.md
+├── instalar.bat                    # Script de instalação (Windows)
+├── README.md                       # Documentação do projeto
+├── storytelling.pdf                # Apresentação dos insights
+└── streamlit_app.py                # Aplicação web interativa
 ```
 
 ## 🚀 Como Executar
 
+### Pré-requisitos
+
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
+
 ### 1. Instalar Dependências
 
-Execute o script de instalação:
+**Opção A - Script automático (Windows):**
 ```bash
 instalar.bat
 ```
 
-Ou instale manualmente:
+**Opção B - Instalação manual:**
 ```bash
 python -m pip install pandas numpy matplotlib seaborn scikit-learn openpyxl jupyter
+```
+
+**Para usar a aplicação Streamlit, instale também:**
+```bash
+python -m pip install streamlit reportlab
 ```
 
 ### 2. Executar Notebooks
@@ -50,8 +68,17 @@ jupyter notebook
 ```
 
 Navegue até a pasta `NOTEBOOKS/` e abra:
+- `tratamento_base.ipynb` - Tratamento e limpeza dos dados
 - `analise_exploratoria.ipynb` - Análise exploratória dos dados
 - `modelo_preditivo_risco.ipynb` - Modelo preditivo de risco
+
+### 3. Executar Aplicação Web (Opcional)
+
+```bash
+streamlit run streamlit_app.py
+```
+
+A aplicação permite calcular índices educacionais de forma interativa para pessoas leigas.
 
 ## 📊 Principais Análises
 
@@ -80,12 +107,15 @@ O modelo identifica alunos em risco de defasagem usando:
 
 ## 🛠️ Tecnologias
 
-- Python 3.12
+- Python 3.8+
 - Pandas - Manipulação de dados
 - NumPy - Operações numéricas
 - Matplotlib/Seaborn - Visualização
 - Scikit-learn - Machine Learning
 - Jupyter Notebook - Ambiente de desenvolvimento
+- Streamlit - Aplicação web interativa
+- ReportLab - Geração de relatórios PDF
+- OpenPyXL - Leitura de arquivos Excel
 
 ## 📈 Principais Descobertas
 
