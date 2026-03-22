@@ -134,6 +134,8 @@ João Paulo Giacherini de Moraes - RM 361571
 Victor Moreno Galves Marcondes - RM 362219
 Thiago Ribeiro da Costa - RM 362845
 
+## Vídeo de apresentação 
+https://youtu.be/8ARAtAStSNA
 
 ## 📝 Licença
 
